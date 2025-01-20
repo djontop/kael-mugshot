@@ -6,8 +6,8 @@ CreateThread(function()
         name = "Mugshottarget",
         heading = 0,
         debugPoly = Config.Debug,
-        minZ = 22.97,
-        maxZ = 26.97,
+        minZ = Config.TargetLoc.z - 1,
+        maxZ = Config.TargetLoc.z + 1,
     }, {
         options = {
             {  
